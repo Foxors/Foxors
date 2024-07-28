@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @Foxors
+- 👀 I’m interested in Minecraft
+- 🌱 I’m currently learning Unity, javaScript
+- 📫 How to reach me: good luck
+- 😄 Pronouns: he/she
+- ⚡ Fun fact: I am bad at my own language and English
