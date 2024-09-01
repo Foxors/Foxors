@@ -1,0 +1,115 @@
+/* styles.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    scroll-behavior: smooth;
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("pictures/redstoneCommands.png");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("pictures/redstone.png");
+    min-height: 110%;
+  }
+  
+  .bgimg-3 {
+    background-image: url("pictures/lobby.png");
+    min-height: 110%;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border  {
+    box-shadow: 0 0px 10px 1px #000000;
+    border-radius: 0.2em;
+    padding: 15px;
+    font-size: 2.5em;
+    letter-spacing: 12px;
+    background-image: linear-gradient(rgb(255, 174, 0), rgb(255, 115, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+    font-weight: bold;;
+  }
+
+  @keyframes wipe-onScollInView {
+	0% {
+		transform: scale(.025, .025);
+	}
+
+	100% {
+        font-size: 1em;
+        background-color: #00000060;
+        color: rgb(255, 255, 255);
+	}
+}
+
+.infoTextleft p {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: -20%;
+    max-width: 40%;
+    padding: 1em;
+    border-radius: 0.3em;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .infoTextAnimation p {
+      animation: wipe-onScollInView 2s 1;
+      animation-fill-mode: forwards; 
+    }
+  }
+
+  .infoTextright p {
+    text-align: right;
+    margin-left: 50%;
+    margin-top: -20%;
+    max-width: 40%;
+    padding: 1em;
+    background-color: #00000060;
+    backdrop-filter: blur(8px);
+    border-radius: 0.3em;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+  }
+ 
+  a {
+    color: rgb(10, 179, 10);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+  
+  
+  
