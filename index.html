@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Foxors</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">Foxors</span>
+  </div>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="infoTextleft" style="background-color:transparent;font-size:25px;color: #f7f7f7;"><p>Hello i am Foxors,<br>I love programming, 3D-printing and Art.<br>I programm with c#, c++, java, javascript, python, bat/cmd/sh, mcFunctions and some more...<br>My favorite hobby is programming and to play games with or without firends or family.</p></span>
+  </div>
+</div>
+
+<div class="bgimg-3">
+    <div class="caption">
+    <span class="infoTextright" style="background-color:transparent;font-size:25px;color: #f7f7f7;"><p>Right now i am working on a minestom server network and MonpHD does the plugin stuff.</p>
+    </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 id="mods" style="text-align:center;">Impressum</h3>
+  <p style="text-align:center;">Es werden keine Resourcen von anderen Server ausserhalb von der EU eingebunden.<br>Kontaktinformationen: mail@pixelpulsemc.de</p>
+  </div>
+</div>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    const squareLeft = entry.target.querySelector('.infoTextleft');
+    const squareRight = entry.target.querySelector('.infoTextright');
+
+    // Add the animation class only when the element is intersecting
+    if (squareLeft && entry.isIntersecting) {
+      squareLeft.classList.add('infoTextAnimation');
+    }
+
+    if (squareRight && entry.isIntersecting) {
+      squareRight.classList.add('infoTextAnimation');
+    }
+  });
+});
+
+// Observe each caption element
+document.querySelectorAll('.caption').forEach(caption => {
+  observer.observe(caption);
+});
+</script>
+
+</body>
+</html>
