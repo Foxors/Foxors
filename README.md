@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @Foxors
+- 👋 Hi, I’m Foxors
 - 👀 I’m interested in Minecraft
-- 🌱 I’m currently learning Unity, javaScript, java
+- 🌱 I’m currently learning Godot, javaScript, java
 - 📫 How to reach me: good luck
 - 😄 Pronouns: he/she
 - ⚡ Fun fact: I am bad at my own language and English
