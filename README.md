@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Foxors
-- 👀 I’m interested in Minecraft
-- 🌱 I’m currently learning javaScript, java
+- 👀 I’m interested in Minecraft and old tech
+- 🌱 I’m currently learning javaScript, java and c
 - 📫 How to reach me: good luck
 - 😄 Pronouns: he/she
-- ⚡ Fun fact: I am bad at speaking & writing in my own language and English.
+- ⚡ Fun fact: 128 equals 128
