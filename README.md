@@ -2,5 +2,5 @@
 - 👀 I’m interested in Minecraft and old tech
 - 🌱 I’m currently learning java
 - 📫 How to reach me: good luck
-- 😄 Pronouns: he/she
+- 😄 Pronouns: he
 - ⚡ Fun fact: 128 equals 128
